@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fcf9ea;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  padding: 50px;
+}
+
+.section-one {
+  background-color: #badfdb;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.section-one__name {
+  font-family: "Oi", serif;
+  color: #dc5a5a;
+}
+
+.section-one__job {
+  color: cadetblue;
+}
+
+.section-one__connect {
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: #badfdb;
+  border: solid cadetblue 2px;
+  border-radius: 16px;
+}
+
+.section-one__connect a {
+  text-decoration: none;
+  color: cadetblue;
+  font-size: medium;
+}
+
+.section-five {
+  background-color: #ffbdbd;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.section-five__title a {
+  text-decoration: none;
+  color: #a63b3b;
+}
+
+.section-five__copyrights {
+  margin-top: 10px;
+  color: #a63b3b;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  margin-top: 10px;
+}
+
+.section-three {
+  background-color: rgb(185, 241, 185);
+  color: rgb(73, 150, 73);
+}
+.section-four {
+  background-color: rgb(173, 185, 202);
+  color: rgb(84, 105, 135);
+  margin-left: 6px;
+  width: 917px;
+
+}
+
+.section-two {
+  padding: 20px;
+  color: #93853d;
+  background-color: #f8f1c7;
+  border-radius: 20px;
+}
+
+.section-three,
+.section-four {
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  
+}
+
+.section-two__des, .section-three__des, .section-four__des{
+  margin-top: 10px;
+}
+
+
+.section-form{
+  padding: 20px;
+}
+
+.section-form__title{
+  color: #fb9494;
+  padding: 10px;
+}
+
+.section-form__input{
+  background-color: #fcf9ea;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: solid #fb9494 1px;
+}
+
+.section-form__submit{
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: #fcf9ea;
+  border: solid #fb9494 2px;
+  border-radius: 16px;
+}
+
+.section-form__submit a {
+  text-decoration: none;
+  color: #fb9494;
+  font-size: medium;
+}
+
+
+input::placeholder {
+  color:#d1c58d; 
+  opacity: 1; 
+}
+
+textarea::placeholder {
+  color: #d1c58d;
+}
